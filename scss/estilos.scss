@@ -1,0 +1,63 @@
+
+*{
+
+    margin: 0;
+    padding: 0;
+
+}
+
+.banner {
+    position: relative;
+    background-image: url("../img/fondo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 400px;
+    height: 50vh;
+
+}
+.contenido{
+    padding: 20px;
+    padding-top: 100px;
+
+
+
+
+}
+.contenedor{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+
+}
+.item{
+    width:50% ;
+    padding: 20px;
+    box-sizing: border-box;
+    transition: all 250 ms;
+    
+   
+
+}
+.item :hover{
+transform: scale(1.1);
+
+}
+.item img{
+    border: 1px solid #ccc;
+    width: 100%;
+   
+}
+.footer h1{
+    position: center;
+    margin: 20px;
+    padding: 20px;
+ 
+}
+.fotos{
+    width: 10%;
+    height: 10;
+}
+
+
+
